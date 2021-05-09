@@ -1,0 +1,30 @@
+$themeColor: #009a44;
+
+.upper-header-menu-button {
+  background-color: white;
+  color: $themeColor;
+  padding: 10px 12px 10px 12px;
+  border-radius: 4px;
+  line-height: 18px;
+  &:hover {
+    color: #333;
+  }
+}
+
+.upper-header-menu-button-2 {
+  border: 1px #cfd8dc solid;
+  padding: 8px 12px 8px 12px;
+  &:hover {
+    color: $themeColor;
+    border-color: #b0bec5;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06);
+  }
+  &:active {
+    background-color: #eceff1;
+    border-color: #b0bec5;
+    box-shadow: 0 0 0 2px rgba(207, 216, 220, 0.5);
+  }
+  i {
+    color: $themeColor;
+  }
+}

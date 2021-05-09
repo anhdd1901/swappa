@@ -1,0 +1,22 @@
+.guarantee {
+  div {
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    font-size: 13px;
+    color: #777;
+  }
+
+  .fa-handshake {
+    color: #079c49;
+  }
+  .fa-paypal {
+    color: #003087;
+  }
+  .fa-truck {
+    transform: scaleX(-1);
+    color: #009a44;
+  }
+  .fa-ban {
+    color: #d9231d;
+  }
+}

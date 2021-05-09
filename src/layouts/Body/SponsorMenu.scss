@@ -1,0 +1,19 @@
+.sponsor-menu {
+  margin: 0px 0px 20px 0px;
+  .sponsorBtn {
+    margin-top: 20px;
+    padding: 16px 22px 16px 22px;
+    background-color: white;
+    border: 1px #cfd8dc solid;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06);
+    &:hover {
+      background-color: #eceff1;
+      border-color: #b0bec5;
+    }
+    &:active {
+      background-color: #d4d4d4;
+      border-color: #8c8c8c;
+      box-shadow: 0 0 0 2px rgba(207, 216, 220, 0.5);
+    }
+  }
+}

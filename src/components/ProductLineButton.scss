@@ -1,0 +1,22 @@
+.product-line-button {
+  .product-line-button-image {
+    padding: 5px;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.12);
+    }
+  }
+  .product-line-button-name {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+    &:hover {
+      color: #00851e;
+    }
+  }
+  .hover-special:hover img {
+    content: url(https://static.swappa.com/static/images/categories/square/category_cameras_hover.png);
+  }
+}

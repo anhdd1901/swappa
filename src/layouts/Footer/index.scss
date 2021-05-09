@@ -1,0 +1,43 @@
+.footer {
+  padding-bottom: 20px;
+  .menu {
+    padding-top: 15px;
+    ul {
+      list-style-type: none;
+      li {
+        color: white;
+        font-size: 13px;
+        line-height: 18px;
+        cursor: pointer;
+        &:hover {
+          color: #cecece;
+        }
+      }
+    }
+  }
+  .lower {
+    padding-top: 10px;
+  }
+  .logo {
+    cursor: pointer;
+    height: 62.5px;
+    img {
+      height: 100%;
+    }
+  }
+  .copyright {
+    color: #cecece;
+    font-size: 13px;
+  }
+  .link {
+    i {
+      color: white;
+      font-size: 45px;
+      margin-right: 10px;
+      cursor: pointer;
+      &:hover {
+        color: #cecece;
+      }
+    }
+  }
+}

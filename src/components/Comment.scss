@@ -1,0 +1,41 @@
+.comment-block {
+    height: 101px;
+  .comment-block-star {
+    i {
+      color: #00b67a;
+      font-size: 20px;
+      margin-right: 3px;
+    }
+  }
+  .comment-block-time {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+  }
+  .comment-block-title {
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #191919;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+  }
+  .comment-block-content {
+    color: #191919;
+    max-height: 32px;
+    font-size: 13px;
+    margin-bottom: 8px;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+  }
+  .comment-block-author {
+    color: rgba(0,0,0,0.6);
+    font-size: 12px;
+    line-height: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+  }
+}
